@@ -1,0 +1,1251 @@
+body{
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+.left-sidebar {
+	position: absolute;
+	height: 100%;
+	width: 20%;
+	float: left;
+	border-right: 1px solid #212529;
+	background-color: rgb(33, 37, 41, 0.4);
+	position: fixed;
+}
+.content-for-tanks-USSR {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+	
+}
+ul, li {
+	margin-top: 6px;
+}
+footer {
+	position:absolute;
+	border-top: 1px solid #323223;
+	height: 10%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+}
+.first-line {
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-line {
+	display: flex;
+	margin-bottom: 5px;
+}
+.diactive {
+	display: none;
+}
+.card-columns:hover {
+	box-shadow: 0 0 10px rgb(0,0,0,0.2);
+	cursor: pointer;
+}
+.card:hover {
+	box-shadow: 0 0 10px rgb(0,0,0,0.5);
+	cursor: pointer;
+}
+.first-lineG {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineG {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-tanks-Germany {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.active{
+	display: block;
+}
+.content-for-tanks-France {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineF {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineF {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-tanks-GB {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineGB {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineGB {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-tanks-China {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineC {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineC {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-tanks-USA {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineA {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineA {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.logo-footer {
+	position: relative;
+	left: 250px;
+	top: 12px;
+}
+.content-for-aircraft-USSR {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineAUSSR {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineAUSSR {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-aircraft-Germany {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineAG {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineAG {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-aircraft-France {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineAF {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineAF {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-aircraft-GB {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineAGB {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineAGB {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-aircraft-China {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineAC {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineAC {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-aircraft-USA {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineAUSA {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineAUSA {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-battles-1940 {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineB1940 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineB1940 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-battles-1941 {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineB1941 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineB1941 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-battles-1942 {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineB1942 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineB1942 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-battles-1943 {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineB1943 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineB1943 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-battles-1944 {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineB1944 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineB1944 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.content-for-battles-1945 {
+	position: relative;
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-left: 0px solid #323232;
+	top: 55px;
+	margin-bottom: 5px;
+	left: 2.7px;
+}
+.first-lineB1945 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+.second-lineB1945 {
+	position: relative;
+	display: flex;
+	margin-bottom: 5px;
+}
+ul, li {
+	margin-top: 5px;
+}
+@media screen and (min-width: 600px) {
+	.card {
+		width: 100px;
+		height: 100px;
+	}
+	img {
+		width: 100.5px;
+		height: 70px;
+	}
+
+
+
+
+	.second-line {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-line {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineG {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineG {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineF {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineF {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineGB {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineGB {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineC {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineC {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineA {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineA {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineAUSSR {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineAUSSR {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineAG {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineAG {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineAF {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineAF {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineAGB {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineAGB {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineAC {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineAC {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineAUSA {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineAUSA {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineB1940 {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineB1940 {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineB1941 {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineB1941 {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineB1942 {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineB1942 {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineB1943 {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineB1943 {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineB1944 {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineB1944 {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+	.second-lineB1945 {
+		margin-top: 160px;
+		margin-right: 30px;
+	}
+	.first-lineB1945 {
+		margin-top: 80px;
+		margin-right: 30px;
+	}
+
+
+	.card-text {
+		position: relative;
+		bottom: 40px;
+	}
+	.tank {
+		position: relative;
+		bottom:80px;
+	}
+	.battle {
+		position: relative;
+		bottom: 20px;
+	}
+
+}
+@media screen and (min-width: 951px) {
+	.air {
+		position: relative;
+		right: 87px;
+	}
+	.battle {
+		position: relative;
+		top: 13px;
+	}
+	.tank {
+		position: relative;
+		bottom: 110px;
+	}
+	img {
+		width:170.74px;
+		height: 100px;
+	}
+	.card {
+		height: 150px;
+	}
+
+
+	.second-line {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-line {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineG {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineG {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineF {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineF {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineGB {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineGB {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineC {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineC {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineA {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineA {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineAUSSR {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineAUSSR {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineAG {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineAG {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineAF {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineAF {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineAGB {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineAGB {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineAC {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineAC {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineAUSA {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineAUSA {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineB1940 {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineB1940 {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineB1941 {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineB1941 {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineB1942 {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineB1942 {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineB1943 {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineB1943 {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineB1944 {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineB1944 {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	.second-lineB1945 {
+		margin-top: 140px;
+		margin-right: 30px;
+	}
+	.first-lineB1945 {
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+
+	.logo-footer {
+		position: relative;
+		right: 150px;
+	}
+	.logo {
+		position: relative;
+		right: 150px;
+	}
+	.Copyright {
+		position: relative;
+		right: 150px;
+	}
+	.question{
+		position: relative;
+		right: 550px;
+		width: 400px;
+	}
+	.Send {
+		margin-right: 1000px;
+		position: relative;
+		bottom: 38px;
+		left: -50px;
+	}
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width: 1429px) {
+	.battle {
+		position: relative;
+		left: -10px;
+		top:50px;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	img {
+		width: 287px;
+		height: 200px;
+	}
+	.card {
+		width: 287px;
+		height: 300px;
+	}
+	.second-line {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-line {
+		margin-top: 0px;
+		margin-right: 30px;
+		margin-bottom: 10px;
+	}
+	.card-text {
+		position: relative;
+		top :-4px;
+	}
+	.air {
+		position: relative;
+		left: 10px;
+	}
+	.tank {
+		position: relative;
+		top: 15px;
+	}
+	.battle {
+		position: relative;
+		left: 10px;
+		top: 50px;
+	}
+}
+@media screen and (min-width: 1425px) {
+	img {
+		width: 265.61px;
+		height: 200px;
+	}
+	.card {
+		width: 287px;
+		height: 300px;
+	}
+	.second-line {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-line {
+		margin-top: 0px;
+		margin-right: 30px;
+		margin-bottom: 10px;
+	}
+	.card-text {
+		position: relative;
+		top :-4px;
+	}
+	.air {
+		position: relative;
+		left: 10px;
+	}
+	.tank {
+		position: relative;
+		top: 50px;
+	}
+	.battle {
+		position: relative;
+		right: -180px;
+	}
+	.logo {
+		position: relative;
+		right: 20px;
+	}
+	.Copyright {
+		position: relative;
+		right: 20px;
+	}
+	.question {
+		position: relative;
+		right: 290px;
+	}
+	.Send {
+		position: relative;
+		margin-left: 260px;
+	}
+	.search {
+		position: relative;
+		left: -230px;
+	}
+	.searchtext {
+		position: relative;
+		left: -230px;
+	}
+
+
+
+
+
+	.first-lineG {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineG {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.second-lineF {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineF {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineGB {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineGB {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineC {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineC {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineA {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineA {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAUSSR {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineAUSSR {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAG {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineAG {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAF {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineAF {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAGB {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineAGB {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAC {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineAC {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAUSA {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineAUSA {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1940 {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineB1940 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1941 {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineB1941 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1942 {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineB1942 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1943 {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineB1943 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1944 {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineB1944 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1945 {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-lineB1945 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1450px) {
+	img {
+		width: 287px;
+		height: 200px;
+	}
+	.card {
+		width: 287px;
+		height: 300px;
+	}
+	.second-line {
+		margin-top: 0px;
+		margin-right: 30px;
+	}
+	.first-line {
+		margin-top: 0px;
+		margin-right: 30px;
+		margin-bottom: 10px;
+	}
+	.card-text {
+		position: relative;
+		top :-4px;
+	}
+	.air {
+		position: relative;
+		left: 10px;
+	}
+	.tank {
+		position: relative;
+		top: 50px;
+	}
+	.battle {
+		position: relative;
+		right: -180px;
+	}
+}
+@media screen and (min-width: 1495px) {
+	.battle {
+		position: relative;
+		right: 2px;
+		top: 50px;
+	}
+	.sidebar {
+		width: 20%;
+	}
+	img {
+		width: 289px;
+	}
+
+
+
+
+	.first-line {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.first-lineG {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineG {
+		position: relative;
+		bottom: 0px;
+	}
+	.second-lineF {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineF {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineGB {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineGB {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineC {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineC {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineA {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineA {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAUSSR {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineAUSSR {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAG {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineAG {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAF {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineAF {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAGB {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineAGB {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAC {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineAC {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineAUSA {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineAUSA {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1940 {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineB1940 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1941 {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineB1941 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1942 {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineB1942 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1943 {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineB1943 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1944 {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineB1944 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.second-lineB1945 {
+		position: relative;
+		bottom: 0px;
+	}
+	.first-lineB1945 {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+
+
+
+
+
+
+
+
+
+	.logo {
+		position: relative;
+		right: 20px;
+	}
+	.Copyright {
+		position: relative;
+		right: 20px;
+	}
+	.question {
+		position: relative;
+		right: 50px;
+	}
+	.Send {
+		position: relative;
+		margin-left: 500px;
+	}
+}
